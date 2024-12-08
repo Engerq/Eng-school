@@ -1,0 +1,57 @@
+/* Кнопка */
+.button  {
+  padding: 16px 32px;
+  border-radius: 48px;
+  border: none;
+  background: #a855f7;
+  color: #fff;
+}
+.button:hover {
+  background-color: #c084fc;
+}
+.button:active {
+  background-color: #9333ea;
+}
+/* кнопка  */
+/* стили хедера */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.icon_logo {
+  width: 35px;
+  height: 35px;
+}
+
+.text_logo {
+  display: inline;
+  width: 119.45px;
+  height: 20.45px;
+}
+.logo p {
+}
+.logo {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 233px 0 108px;
+  padding: 7px 9.549px 6px 0px;
+  gap: 20px;
+}
+.menu {
+  display: inline-flex;
+  align-items: center;
+  gap: 52px;
+  margin-right: 179px;
+}
+.menu a {
+  text-decoration: none;
+  color: #1e293b;
+
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* конец стилей хедера */
