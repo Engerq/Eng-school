@@ -1,5 +1,13 @@
-/* Кнопка */
-.button  {
+.container {
+  max-width: 1224px;
+  margin: 0 auto;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+/* button  */
+.button {
+  font-family: inherit;
   padding: 16px 32px;
   border-radius: 48px;
   border: none;
@@ -12,13 +20,12 @@
 .button:active {
   background-color: #9333ea;
 }
-/* кнопка  */
-/* стили хедера */
+/*  button end  */
+/* header style */
 header {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  width: 100%;
+  justify-content: space-between;
 }
 .icon_logo {
   width: 35px;
@@ -27,31 +34,31 @@ header {
 
 .text_logo {
   display: inline;
-  width: 119.45px;
-  height: 20.45px;
-}
-.logo p {
+  width: 120px;
+  height: 21px;
 }
 .logo {
   display: inline-flex;
   align-items: center;
-  margin: 0 233px 0 108px;
-  padding: 7px 9.549px 6px 0px;
+  padding: 7px 10px 6px 0px;
   gap: 20px;
 }
 .menu {
   display: inline-flex;
   align-items: center;
   gap: 52px;
-  margin-right: 179px;
 }
 .menu a {
   text-decoration: none;
   color: #1e293b;
-
-  font-family: roboto;
   font-size: 16px;
   font-weight: 700;
 }
-
-/* конец стилей хедера */
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 52px;
+}
+/* header style  end*/
