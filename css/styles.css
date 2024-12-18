@@ -1,3 +1,16 @@
+/* reset css */
+ul{
+  padding: 0;
+  margin:0;
+}
+h1{
+  margin:0;
+}
+/* reset css  end*/
+body * {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 1224px;
   margin: 0 auto;
@@ -24,6 +37,9 @@ ul {
   color: #0f172a;
   font-size: 20px;
   font-weight: 600;
+}
+h1{
+font-size: 52px;
 }
 /* button  */
 .button {
@@ -83,33 +99,36 @@ header {
 }
 /* header style  end*/
 /* hero section */
-.main_hero {
+.hero {
   display: flex;
-  justify-content: center;
+  justify-content:space-between ;
 
   gap: 73px;
   background-color: #7e22ce;
   border-radius: 48px;
-  height: 400px;
+padding: 45px 104px 45px 104px;
   margin-top: 60px;
   color: #fff;
 }
-.main_hero ul {
+.hero ul {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   width: 390px;
-  height: 120px;
-  margin: 62px 0 72px;
 }
-.main_hero li{
-  padding:  8px 16px;
+.hero li {
+  
+  padding: 8px 16px;
   border-radius: 4px;
-background: rgba(176, 94, 250, 0.60);
+  background: rgba(176, 94, 250, 0.6);
+  font-size: 14px;
 }
-.main_hero img {
-  height: 408px;
-  width: 311px;
+.hero h1{
+  margin-bottom: 24px;
+}
+.hero_content{
+max-width: 535px;
+
 }
 
 /* hero section end */
@@ -148,11 +167,11 @@ background: rgba(176, 94, 250, 0.60);
 .services img {
   margin-bottom: 56px;
 }
-.sale{
-  position:absolute;
+.sale {
+  position: absolute;
   right: -30px;
-  top:-30px;
+  top: -30px;
 }
-.saled{
+.saled {
   position: relative;
 }
